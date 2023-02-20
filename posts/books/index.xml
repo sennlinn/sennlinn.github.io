@@ -6,5 +6,18 @@
     <description>Recent content in books on Sennlinn&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://sennlinn.github.io/posts/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>books</title>
+      <link>https://sennlinn.github.io/posts/books/rerun-php-project-cloned-from-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sennlinn.github.io/posts/books/rerun-php-project-cloned-from-git/</guid>
+      <description>##How to rerun the laravel project cloned from github ?
+####Description:
+Laravel, composer and php mainly used in the project. After check it runs smoothly in the computer, push to github. Then Cloned it onto computer, but it cannot run. ####key word: The hint is &amp;rsquo;no vendor&amp;rsquo; directory. why?
+####Reason:
+When we upload projects to github, .env will be ignored as there are a lot of messages about how to connect to your database.</description>
+    </item>
+    
   </channel>
 </rss>

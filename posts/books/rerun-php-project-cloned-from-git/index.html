@@ -5,12 +5,18 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>blog | Sennlinn&#39;s Blog</title>
-<meta name="keywords" content="">
-<meta name="description" content="blog - Sennlinn&#39;s Blog">
+<title>books | Sennlinn&#39;s Blog</title>
+<meta name="keywords" content="laravel">
+<meta name="description" content="##How to rerun the laravel project cloned from github ?
+####Description:
+Laravel, composer and php mainly used in the project. After check it runs smoothly in the computer, push to github. Then Cloned it onto computer, but it cannot run. ####key word: The hint is &rsquo;no vendor&rsquo; directory. why?
+####Reason:
+When we upload projects to github, .env will be ignored as there are a lot of messages about how to connect to your database.">
 <meta name="author" content="Sennlinn">
-<link rel="canonical" href="https://sennlinn.github.io/posts/blog/">
+<link rel="canonical" href="https://sennlinn.github.io/posts/books/rerun-php-project-cloned-from-git/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.3d8aa53824fe6ac788766af6a66d6bd6f1b9d54ac4182ce38f7f750e3b5f4190.css" integrity="sha256-PYqlOCT&#43;aseIdmr2pm1r1vG51UrEGCzjj391DjtfQZA=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://sennlinn.github.io/img/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://sennlinn.github.io/img/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://sennlinn.github.io/img/favicon-32x32.png">
@@ -18,7 +24,6 @@
 <link rel="mask-icon" href="https://sennlinn.github.io/img/safari-pinned-tab.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://sennlinn.github.io/posts/blog/index.xml">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,14 +60,24 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="blog" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://sennlinn.github.io/posts/blog/" />
+</noscript><meta property="og:title" content="books" />
+<meta property="og:description" content="##How to rerun the laravel project cloned from github ?
+####Description:
+Laravel, composer and php mainly used in the project. After check it runs smoothly in the computer, push to github. Then Cloned it onto computer, but it cannot run. ####key word: The hint is &rsquo;no vendor&rsquo; directory. why?
+####Reason:
+When we upload projects to github, .env will be ignored as there are a lot of messages about how to connect to your database." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sennlinn.github.io/posts/books/rerun-php-project-cloned-from-git/" /><meta property="article:section" content="posts" />
+
+
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="blog"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="books"/>
+<meta name="twitter:description" content="##How to rerun the laravel project cloned from github ?
+####Description:
+Laravel, composer and php mainly used in the project. After check it runs smoothly in the computer, push to github. Then Cloned it onto computer, but it cannot run. ####key word: The hint is &rsquo;no vendor&rsquo; directory. why?
+####Reason:
+When we upload projects to github, .env will be ignored as there are a lot of messages about how to connect to your database."/>
 
 
 <script type="application/ld+json">
@@ -79,15 +94,54 @@
     {
       "@type": "ListItem",
       "position":  3 ,
-      "name": "blog",
-      "item": "https://sennlinn.github.io/posts/blog/"
+      "name": "books",
+      "item": "https://sennlinn.github.io/posts/books/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  4 ,
+      "name": "books",
+      "item": "https://sennlinn.github.io/posts/books/rerun-php-project-cloned-from-git/"
     }
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "books",
+  "name": "books",
+  "description": "##How to rerun the laravel project cloned from github ?\n####Description:\nLaravel, composer and php mainly used in the project. After check it runs smoothly in the computer, push to github. Then Cloned it onto computer, but it cannot run. ####key word: The hint is \u0026rsquo;no vendor\u0026rsquo; directory. why?\n####Reason:\nWhen we upload projects to github, .env will be ignored as there are a lot of messages about how to connect to your database.",
+  "keywords": [
+    "laravel"
+  ],
+  "articleBody": "##How to rerun the laravel project cloned from github ?\n####Description:\nLaravel, composer and php mainly used in the project. After check it runs smoothly in the computer, push to github. Then Cloned it onto computer, but it cannot run. ####key word: The hint is ’no vendor’ directory. why?\n####Reason:\nWhen we upload projects to github, .env will be ignored as there are a lot of messages about how to connect to your database. It’s very danger if everyone can see it. And vendor will be ignored too, because vendor folder here is like a class library, push speed will be very slow if project contains too much class libraries. ####Solution:\nAfter git clone it onto computer in your root folder, run cp -a .env.example .env to add .env file(check messages if correct or not if needed), then php artisan key:generate and php artisan serve. PERFECT!! enter php artisan serve to run it. ",
+  "wordCount" : "153",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Sennlinn"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sennlinn.github.io/posts/books/rerun-php-project-cloned-from-git/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sennlinn's Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://sennlinn.github.io/img/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -162,24 +216,49 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://sennlinn.github.io">Home</a>&nbsp;»&nbsp;<a href="https://sennlinn.github.io/posts/">posts</a></div>
-  <h1>
-    blog
-  </h1>
-</header>
+<main class="main">
 
-<article class="post-entry">
- 
-  <header class="entry-header">
-    <h2>Fisrt Blog
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>first post </p>
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://sennlinn.github.io">Home</a>&nbsp;»&nbsp;<a href="https://sennlinn.github.io/posts/">posts</a>&nbsp;»&nbsp;<a href="https://sennlinn.github.io/posts/books/">books</a></div>
+    <h1 class="post-title">
+      books
+    </h1>
+  </header> 
+
+  <div class="post-content"><p>##How to rerun the laravel project cloned from github ?</p>
+<p>####Description:</p>
+<ol>
+<li>Laravel, composer and php mainly used in the project.</li>
+<li>After check it runs smoothly in the computer, push to github.</li>
+<li>Then Cloned it onto computer, but it cannot run.</li>
+</ol>
+<p>####key word: The hint is &rsquo;no vendor&rsquo; directory. why?</p>
+<p>####Reason:</p>
+<ol>
+<li>When we upload projects to github, <strong>.env</strong> will be ignored as there are a lot of messages about how to connect to your database. It&rsquo;s very danger if everyone can see it.</li>
+<li>And vendor will be ignored too, because vendor folder here is like a <strong>class library</strong>, push speed will be very slow if project contains too much class libraries.</li>
+</ol>
+<p>####Solution:</p>
+<ol>
+<li>After <code>git clone</code> it onto computer in your root folder,</li>
+<li>run <code>cp -a .env.example .env</code> to add .env file(check messages if correct or not if needed),</li>
+<li>then <code>php artisan key:generate</code></li>
+<li>and <code>php artisan serve</code>.</li>
+<li>PERFECT!! enter <code>php artisan serve</code> to run it.</li>
+</ol>
+
+
   </div>
-  <footer class="entry-footer"><span title='2023-02-16 21:29:53 +0800 CST'>2023-02-16</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Sennlinn</footer>
-  <a class="entry-link" aria-label="post link to Fisrt Blog" href="https://sennlinn.github.io/posts/blog/fisrt-blog/"></a>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://sennlinn.github.io/tags/laravel/">laravel</a></li>
+    </ul>
+
+
+
+  </footer>
 </article>
     </main>
     
@@ -246,6 +325,53 @@
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 
